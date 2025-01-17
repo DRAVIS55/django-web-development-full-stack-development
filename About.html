@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</head>
+<body class="">
+<header class="bg-light ">
+    <ul class="d-flex list-unstyled justify-content-around">
+        <li><a href="{% url 'home' %}" class="btn btn-outline-dark">HOME </a></li>
+        <li><a href="{% url 'contact' %}" class="btn btn-outline-warning">CONTACT US </a></li>
+        <li><a href="#" class="btn btn-outline-primary">SCHOLARS </a></li>
+        <li><a href="#" class="btn btn-outline-success">MENTORS </a></li>
+        <li><a href="#" class="btn btn-outline-warning">TESTIMONIALS </a></li>
+         <li><a href="#" class="btn btn-outline-danger">OUR TERMS </a></li>
+         <li><a href="#" class="btn btn-outline-warning">FIND JOB </a></li>
+        <li><a href="#" class="btn btn-primary">SIGN IN </a></li>
+        <li><a href="#" class="btn btn-primary">SIGN UP </a></li>
+    </ul>
+</header>
+<div class="ms-5 me-5 ">
+<h1 class="text-center text-success fw-bolder h1">AJIRA DIGITAL</h1>
+<h2>Welcome to Ajira Digital</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur culpa cum fugit illo odio possimus quaerat qui sit veritatis? Ab aliquam corporis doloremque molestiae nulla porro repellat unde voluptatibus?</span><span>Consequuntur corporis doloribus eos est eum excepturi inventore laboriosam laudantium minima nemo nostrum odit officiis porro possimus praesentium quaerat qui quibusdam quod rem reprehenderit, sequi sint suscipit tenetur ut veniam!</span></p>
+<h2>What  we do</h2>
+<ol>
+
+<li><h3>Computer Literacy training</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate dolorem illo ipsum laborum maxime numquam quaerat quis repellendus reprehenderit, sint tempora tempore, veniam, vero voluptatum? In laudantium modi mollitia?</span><span>Animi asperiores corporis ipsam, nostrum officiis pariatur porro quae quibusdam quidem tenetur velit, veniam veritatis! Ab, assumenda eius illum modi non nostrum, odit optio, reprehenderit ut vel velit veniam veritatis.</span></p>
+    <img src="{% static 'assets/drav1.jpg' %}" alt="">
+    <img src="{% static 'assets/drav2.jpg' %}" alt="">
+    <img src="{% static 'assets/drav3.jpg' %}" alt="">
+    <img src="{% static 'assets/drav4.jpg' %}" alt="">
+</li>
+
+    <li><h3>NETWORKING</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus commodi, consequuntur dicta doloribus dolorum earum fuga minus placeat quo quod quos repellendus soluta vel velit veniam vitae voluptate voluptates?</span><span>Asperiores atque deleniti obcaecati sit velit? Animi debitis eum harum impedit iure molestias quo rem, sapiente similique soluta. Consequuntur dolores explicabo fuga itaque pariatur perspiciatis quos sapiente vel. Quo, vero!</span></p>
+  <img src="{% static 'assets/drav5.jpg' %}" alt="">
+    <img src="{% static 'assets/drav6.jpg' %}" alt="">
+    <img src="{% static 'assets/drav7.jpg' %}" alt="">
+    <img src="{% static 'assets/drav8.jpg' %}" alt="">
+    </li>
+
+    <li><h3>CONNECTIONS</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam aspernatur cum cupiditate dolorem doloribus error esse explicabo facilis illo magnam maxime, nobis perferendis quas quis ratione saepe soluta, vero.</span><span>Adipisci aliquam cumque dolore iusto molestiae nobis odio placeat reiciendis sunt totam! A animi autem corporis dolorem, libero numquam quisquam ullam! Animi cum deserunt eos excepturi expedita ipsam placeat recusandae.</span></p>
+ <img src="{% static 'assets/drav9.jpg' %}" alt="">
+    <img src="{% static 'assets/drav10.jpg' %}" alt="">
+    <img src="{% static 'assets/drav1.jpg' %}" alt="">
+    <img src="{% static 'assets/drav2.jpg' %}" alt="">
+    </li>
+
+    <li><h3>YOUTH SUPPORT</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam at aut cupiditate doloremque itaque mollitia, non, numquam quae sapiente, sequi sunt velit voluptatum. Consequatur earum non quos tempora unde.</span><span>Alias dignissimos ducimus enim eos eveniet exercitationem fugiat illo inventore ipsa ipsum magnam magni numquam officia saepe soluta tenetur, vero! Consequuntur est exercitationem explicabo nulla odit omnis placeat sed vitae.</span></p>
+ <img src="{% static 'assets/drav3.jpg' %}" alt="">
+    <img src="{% static 'assets/drav4.jpg' %}" alt="">
+    <img src="{% static 'assets/drav5.jpg' %}" alt="">
+    <img src="{% static 'assets/drav6.jpg' %}" alt="">
+    </li>
+
+    <li><h3>CAMPINGS</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorem harum minima modi obcaecati rem repellendus, tempora tenetur! Accusamus accusantium assumenda at esse expedita illum iusto magni necessitatibus officia optio.</span><span>Accusamus autem earum officiis sunt. Consectetur culpa cumque debitis dignissimos esse excepturi fuga iure molestias, nihil nulla possimus, provident repudiandae tempora temporibus unde. Delectus error excepturi harum mollitia sequi voluptates.</span></p>
+ <img src="{% static 'assets/drav7.jpg' %}" alt="">
+    <img src="{% static 'assets/drav8.jpg' %}" alt="">
+    <img src="{% static 'assets/drav9.jpg' %}" alt="">
+    <img src="{% static 'assets/drav10.jpg' %}" alt="">
+    </li>
+
+    <li><h3>ADVANCED OPPORTUNITIES</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad deleniti eius eligendi eum natus nesciunt perspiciatis quasi quo sint voluptatem! Delectus deserunt iure labore laborum non recusandae repellat ut, voluptas.</span><span>Adipisci at cum facilis id necessitatibus obcaecati, officia omnis quas sit! Cupiditate dicta illum obcaecati quo repudiandae similique tenetur ut. At, atque deleniti provident reiciendis sint tempore temporibus. Ipsam, libero?</span></p>
+ <img src="{% static 'assets/drav1.jpg' %}" alt="">
+    <img src="{% static 'assets/drav2.jpg' %}" alt="">
+    <img src="{% static 'assets/drav3.jpg' %}" alt="">
+    <img src="{% static 'assets/drav4.jpg' %}" alt="">
+    </li>
+
+    <li><h3>YOUTH MOTIVATION</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias atque aut est ex expedita illum incidunt iusto laborum, nisi nulla numquam praesentium reiciendis repellendus sit sunt velit. Nam, non?</span><span>Adipisci autem, id perferendis quis tempora voluptates? Deleniti, facere laboriosam necessitatibus possimus rem sunt totam! Magnam numquam, odio. Fuga magni, temporibus. Assumenda ipsam odit officiis perspiciatis quia? Consectetur, magni, obcaecati.</span></p>
+ <img src="{% static 'assets/drav5.jpg' %}" alt="">
+    <img src="{% static 'assets/drav6.jpg' %}" alt="">
+    <img src="{% static 'assets/drav7.jpg' %}" alt="">
+    <img src="{% static 'assets/drav8.jpg' %}" alt="">
+    </li>
+
+</ol>
+    </div>
+
+
+
+
+<footer>
+
+    <div class="bg-dark d-flex text-white ">
+
+    <div class="d-grid  p-4">
+        <img src="{% static 'assets/contact.png' %}" class="bg-light " alt="">
+         <img src="{% static 'assets/cobtact2.png' %}" class="bg-light mt-3"  alt="">
+    </div>
+
+    <div class="mt-3 p-4">
+        <p>reach us on whatsapp at:</p>
+        <ul>
+            <li>+254723456234</li>
+             <li>+254723456234</li>
+             <li>+254723456234</li>
+        </ul>
+        </div>
+
+            <div class="mt-3 p-4 ">
+        <p>or email us at:</p>
+        <ul>
+            <li>samuelkibunja@gmail.com</li>
+             <li>samuelkibunja@gmail.com</li>
+             <li>samuelkibunja@gmail.com</li>
+        </ul>
+            </div>
+
+        <div class="mt-3 p-4">
+        <p>or message us at:</p>
+        <ul>
+            <li>+254723456234</li>
+             <li>+254723456234</li>
+             <li>+254723456234</li>
+        </ul>
+        </div>
+
+    <div class="mt-3 p-4">
+        <p>thank you for visiting our website</p>
+        <p>all right served.dravis portals</p>
+        <p>&copy; Ajira digital 2025</p>
+    </div>
+
+      </div>
+
+</footer>
+
+</body>
+</html>
